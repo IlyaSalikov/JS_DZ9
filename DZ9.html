@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DZ9</title>
+</head>
+<body>
+
+<!--<script>
+    //1. Запросить у пользователя номер месяца и вывести на экран его название.
+    let num = +prompt('Введите номер месяца');
+    switch (num) {
+        case 1:
+            alert('Январь');
+            break;
+        case 2:
+            alert('Февраль');
+            break;
+        case 3:
+            alert('Март');
+            break;
+        case 4:
+            alert('Апрель');
+            break;
+        case 5:
+            alert('Май');
+            break;
+        case 6:
+            alert('Июнь');
+            break;
+        case 7:
+            alert('Июль');
+            break;
+        case 8:
+            alert('Август');
+            break;
+        case 9:
+            alert('Сентябрь (горит)');
+            break;
+        case 10:
+            alert('Октябрь');
+            break;
+        case 11:
+            alert('Ноябрь');
+            break;
+        case 12:
+            alert('Декабрь');
+            break;
+        default:
+            alert('Ошибка');
+    }
+</script>-->
+
+<script>
+    //2. Реализовать калькулятор. Пользователь вводит 2 числа и знак (+ - * /).
+    // В зависимости от введенного знака решить пример и вывести результат.
+    let num1 = +prompt('Введите первое число');
+    let num2 = +prompt('Введите второе число');
+    let op = +prompt(`Введите знак `+`, `-`, `*`, `/``);
+    switch (op) {
+        case `+`:
+        alert(num1 + num2);
+            break;
+        case `-`:
+            alert(num1 - num2);
+            break;
+        case `*`:
+            alert(num1 * num2);
+            break;
+        case `/`:
+            alert(num1 / num2);
+            break;
+        default:
+            alert('error');
+        }
+</script>
+
+</body>
+</html>
